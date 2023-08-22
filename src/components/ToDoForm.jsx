@@ -8,7 +8,6 @@ function ToDoForm({ toDos, setToDos }) {
 
 	const createToDo = () => {
 		const newToDo = {
-			id: ToDoList.length + 1,
 			description: description,
 			priority: priority,
 			deadline: deadline,

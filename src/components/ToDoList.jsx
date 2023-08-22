@@ -1,6 +1,8 @@
 import ToDo from './ToDo';
 function ToDoList({ toDos }) {
-	const toDoItems = toDos.map((toDo) => <ToDo toDo={toDo} key={toDo.id} />);
+	const toDoItems = toDos.map((toDo, index) => (
+		<ToDo toDo={toDo} key={index} />
+	));
 
 	return (
 		<>
