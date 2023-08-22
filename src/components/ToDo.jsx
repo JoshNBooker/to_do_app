@@ -17,8 +17,6 @@ function ToDo({ toDo }) {
 			break;
 	}
 
-	const hello = 'hello';
-
 	return (
 		<li className={`toDo ${priorityClass}`}>
 			<h3>
